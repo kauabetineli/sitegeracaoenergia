@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    padding: 10px;
+}
+
+header {
+    background-color: rgb(189, 189, 189);
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+nav a{
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+}
+
+h1, .imagem {
+    text-align: center;
+}
+
+.imagem {
+    overflow: hidden;
+}
+.imagem img{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 700px;
+    height: 500px;
+    
+}
+
+.imagem img:hover{
+    scale: 1.05;
+    transition: 0.2s ease;
+    filter: brightness(120%);
+}
+
+p {
+    text-align: justify;
+    padding-left: 30px;
+}
+
+.gp {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gp:hover {
+    background-color: rgb(205, 205, 205);
+    transition: 0.2s ease;
+}
